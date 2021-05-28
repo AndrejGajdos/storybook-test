@@ -1,0 +1,61 @@
+{
+  "name": "storybook-test",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "module": "index.js",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "crel": "^4.2.1",
+    "js-base64": "^3.6.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-color": "^2.19.3",
+    "react-document-title": "^2.0.3",
+    "react-dom": "^17.0.2",
+    "react-modal": "^3.13.1",
+    "react-redux": "^7.2.3",
+    "react-scripts": "4.0.3",
+    "react-youtube": "^7.13.1",
+    "web-vitals": "^1.0.1"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "scripts": {
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "7.13.10",
+    "@storybook/addon-actions": "6.1.21",
+    "@storybook/addon-essentials": "6.1.21",
+    "@storybook/addon-links": "6.1.21",
+    "@storybook/react": "6.1.21",
+    "babel-loader": "8.1.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1"
+  }
+}
